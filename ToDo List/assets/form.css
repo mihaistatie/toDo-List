@@ -1,0 +1,27 @@
+header, 
+form {
+    min-height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+
+form input, form button {
+    padding: 0.5rem;
+    font-size: 2rem;
+    border: none;
+    background:white;
+    outline: none;
+}
+form button{
+    color:#9571d8;
+    background-color: white;
+    cursor: pointer;
+    transition: all 0.3s ease; 
+  
+}
+form button:hover{
+    background-color:#9571d8;
+    color: white;
+}
